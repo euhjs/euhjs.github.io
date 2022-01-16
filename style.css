@@ -1,0 +1,29 @@
+@font-face { font-family: Poppins; src: url('/src/Poppins.ttf'); } 
+
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    background: #373b40;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #373b40;
+    letter-spacing: 0;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.h-title {
+
+}
