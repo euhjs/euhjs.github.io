@@ -1,29 +1,89 @@
-@font-face { font-family: Poppins; src: url('/src/Poppins.ttf'); } 
+@font-face {
+  font-family: Poppins;
+  src: url("/src/Poppins.ttf");
+}
 
 body {
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 26px;
+  color: #fff;
+  background: #373b40;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: #373b40;
+  letter-spacing: 0;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+
+* {
     padding: 0;
-    border: none;
-    font-family: Poppins;
-    font-size: 14px;
-    line-height: 26px;
-    color: #fff;
-    background: #373b40;
-    background-image: initial;
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: #373b40;
-    letter-spacing: 0;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-}
-
-.h-title {
-
-}
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #353836;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  header a {
+    text-decoration: none;
+  }
+  
+  header {
+    padding: 0 20px;
+    background-color: #1d1f1d;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 42px;
+    line-height: 1.2;
+    font-weight: 800;
+  }
+  
+  #title a {
+    color: hsl(273, 95%, 63%);
+  }
+  
+  ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  ul a {
+    color: white;
+  }
+  
+  ul li {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: purple;
+  }
