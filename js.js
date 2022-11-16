@@ -1,3 +1,3 @@
 //alert(1);
-document.body.innerHTML="Fortinite";
+document.body.innerHTML="GeometryDash";
 document.title = "Fortinite";
