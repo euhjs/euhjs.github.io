@@ -3,8 +3,13 @@
   src: url("/src/Poppins.ttf");
 }
 
+@keyframes blink {
+  0% { background-color: black; }
+  50% { background-color: purple; }
+  100% { background-color: black; }
+}
+
 body {
   font-family: Poppins;
-  color: #fff;
-  background-color: #373b40;
+  animation: blink 0.2s infinite;
 }
