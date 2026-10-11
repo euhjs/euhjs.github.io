@@ -5,8 +5,8 @@
 
 @keyframes blink {
   0% { background-color: black; }
-  50% { background-color: purple; }
-  100% { background-color: white; }
+  50% { background-color: white; }
+  100% { background-color: black; }
 }
 
 body {
